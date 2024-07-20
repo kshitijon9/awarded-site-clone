@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "General sans";
+}
+
+html,
+body {background-color: black;
+    width: 100%;
+    height: 100%;
+}
+#minicircle{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+    opacity: 1;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    z-index: 99999;
+    background-color: white;
+}
+
+#main {
+    width: 100%;
+   
+}
+.bounding {
+    width: fit-content;
+   overflow: hidden;
+}
+.bounding .boundingelem{
+    transform: translateY(100%);
+}
+#hero {
+    position: sticky;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+#nav a {
+
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#nav {
+    position: sticky;
+    width: 100%;
+    padding: 20px 40px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#heading {
+    margin-top: 115px;
+}
+
+#heading h1 {
+    margin-left: 40px;
+    line-height: 0.9;
+    opacity: 0.7;
+    font-size: 10.2vw;
+    text-transform: uppercase;
+}
+
+.blocktext {
+display: flex;
+flex-direction: column;
+align-items: end;
+    width: fit-content;
+
+}
+
+.blocktext #secondh1 {
+   padding-left: 1000px;
+
+}
+.blocktext h5 {
+
+    text-transform: uppercase;
+    text-align: right;
+}
+
+#miniheading {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 150px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+#miniheading h5 {
+    font-size: 1vw;
+    margin-top: .5vw;
+    margin-right: 30px;
+}
+
+#herofooter {
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 0 2vw;
+    width: 100%;
+    position: absolute;
+    bottom: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#herofooter a {
+    color: white;
+
+    text-decoration: none;
+}
+
+#herofooter .circle {
+    display: flex;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    color: black;
+    background-color: #888;
+    justify-content: center;
+    border-radius: 50%;
+
+}
+
+#herofooter .iconset {
+    display: flex;
+    gap: 10px;
+}
+
+#second {
+    padding-left: 5vw;
+    padding-right: 10vw;
+    padding-top: 200px;
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.elem img{
+    width: 30%;
+    position: absolute;
+    z-index: 999;
+    opacity: 0;
+}
+
+.elem {
+
+    padding: 2vw 1vw;
+
+    display: flex;
+   align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #888;
+    width: 100%;
+
+}
+
+.elem h1 {
+    text-transform: uppercase;
+    font-size: 7vw;
+    opacity: 0.7;
+}
+.below h1{ 
+border-bottom: 2px solid #888;
+width: 2200px;
+padding: 2vw 1vw;
+}
+#aboutme{
+    padding: 200px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+padding-left: 40vw;
+}
+#aboutme img{
+width: 250px;
+}
+#aboutme .textcontent{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: left;
+ 
+   padding-left: 4vw;
+}
+.line1 {
+    opacity: 0.5;
+}
+.linesum{
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.textcontent a{text-decoration: none;
+    border-radius: 100px;
+    padding: 12px 22px;
+    border: 1px solid white;
+color: white;
+width: 30%
+}
+.line2{
+    padding-bottom: 10px;
+}
+#subscribe{
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+#subscribe{
+    padding: 2vw 2vw;
+}
+#subscribe h5{
+    opacity: 0.6;
+    text-transform: uppercase;
+    
+}
+#subscribe h4{
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-bottom: 7vw;
+}
+
+#footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.footerleft {
+    text-transform: uppercase;
+padding-left: 20px;
+    display: flex;
+}
+.footerleft h4{
+    padding: 10px;
+}
+.footerright{
+
+    text-transform: uppercase;
+
+}
+.footerright a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+}
+
+
+
